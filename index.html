@@ -11,19 +11,32 @@
     <link rel="shortcut icon" href="assets/github.png" type="favicon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Portfólio | Thyago Henrique - Desenvolvedor Front-End</title>
 </head>
 <body>
-    <header class="header">                     <!-- Menu Navbar -->
-        <h1 class="title">Thyago Henrique</h1>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+  <nav class="navbar navbar-expand-md navbar-light bg-light box-shadow ">
+    <h1 class="title grid-container-center" style="font-size: 32px;">Portfólio</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <a class="nav-link" href="#experiencia">Experiência </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formacao">Formação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+  </div>
+  </nav>
+</header>
 
     <div data-aos="fade-right" data-aos-duration="3000"> <!-- Animação Javascript -->
 
@@ -36,7 +49,7 @@
           <a href="assets/CV_ThyagoH (1) (1).pdf" download>Download CV</a>
         </div>
       </div>
-        <h1 id="elementEl">Olá, eu sou o Thyago :) Desenvolvedor Front-End Jr.</h1>
+        <h1 class="thyago">Olá, eu sou o Thyago <span  id="elementEl">Desenvolvedor Front-End Jr.</span></h1>
         <script>
           'use strict';
 
@@ -48,15 +61,28 @@
               setTimeout(() => (el.innerHTML += letter), 95 * i);
               
             });
-            setInterval(() => typeWriter(el), 8500);
+            setInterval(() => typeWriter(el), 5000);
            }
            typeWriter(elementEl);
         </script>
     </main>
-
-  </div>
-
-    <section class="experiencia" id="experiencia" aria-label="Experiência" data-aos="fade-right" data-aos-duration="3000">   <!-- Sessão Experiência -->
+    <h1 style="text-align: center;">Skills : 👨‍💻</h1>
+    <div class="icones">
+      <img class="icon" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+      <img class="icon"height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+      <img class="icon"  alt="" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+      <img class="icon"  alt="" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+      <img class="icon"  alt="" height="70" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+      <img class="icon"  alt="" height="70" width="70" src="https://camo.githubusercontent.com/26901b819fb10ef4e2c652aa40e24775247664d84a7597bebb66898a24dddedd/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f736173732f736173732d6f726967696e616c2e737667">
+       <img class="icon" alt="" height="70" width="70" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/bootstrap.svg">
+       <img class="icon" alt="" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg">
+       <img class="icon" alt="" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+       <img class="icon" alt="" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg">
+       <img class="icon" alt="" height="70" width="70" src="https://camo.githubusercontent.com/26a528f097ecb4f4b3987ad74cd3086870e930d85124c2a352dbde9e3cd14cb7/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6e6578746a732f6e6578746a732d6f726967696e616c2e737667">
+     <img class="icon" alt="" height="70" width="70" src="https://camo.githubusercontent.com/43f9c085821a7258745ceed4ecbcc68c3ffd996049c9d0a2a77c74dd1f5dc80b/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f666c75747465722f666c75747465722d6f726967696e616c2e737667">
+      </div>
+      <br>    
+    <section class="experiencia" id="experiencia" aria-label="Experiência" data-aos="fade-right" data-aos-duration="2000">   <!-- Sessão Experiência -->
         <h2 class="subtitulo">Experiência</h2>
         <div>
         <p class="experiencia-texto">Meus Projetos:</p>
@@ -196,5 +222,9 @@
             <script>
               AOS.init();
             </script>
+                   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
        </body>
 </html>
