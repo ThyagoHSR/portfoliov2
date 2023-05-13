@@ -4,10 +4,6 @@
 <h3>• Criado em 02/02/2023.
 <br><br>
 <h1>🖼️ Imagens do Projeto </h1>
-<img src="./assets/img1.png">
-<img src="./assets/img2.1.png">
-<img src="./assets/img3.png">
-<img src="./assets/img4.png">
 
 <br><br>
 <h1>💻 Tecnologias utilizadas</h1>
